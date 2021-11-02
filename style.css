@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 80%;
+    margin: 2% auto;
+}
+#model{
+    width: 30%;
+    height: 600px;
+    border: 1px solid black;
+    float: left;
+    margin: 0 1% 4% 0;
+    position: relative;
+}
+#model::after{
+    content: "";
+    display: table;
+    clear: both;
+}
