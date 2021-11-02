@@ -12,7 +12,7 @@
     width: 30%;
     height: 700px;
     float: left;
-    margin-right: 1%;
+    margin: 0 1% 1% 0;
     position: relative;
 }
 #model:nth-child(3n){
@@ -50,8 +50,9 @@
     width: 30px;
     text-align: center;
     color: white;
-    font-size: 11px;
-    padding-top: 2px ;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 3px;
 }
 .sustain{
     position: absolute;
@@ -73,7 +74,7 @@ span:nth-of-type(1){
     color: #706F94;
     font-size: 12px;
 }
-.modelinfo h6{
+.modelinfo h4{
     text-transform: uppercase;
 }
 span:nth-of-type(2){
@@ -86,3 +87,14 @@ span:nth-of-type(3){
     text-decoration: line-through;
     font-size: 12px;
 }
+ /*Inizio del hover*/ 
+
+ .imgtop{
+     display: none;
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+#model:hover .imgtop{
+     display: inline;
+ }
