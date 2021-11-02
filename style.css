@@ -41,6 +41,9 @@
     content: "\2665";
     font-size: 25px;
 }
+.heart:hover{
+    color: red;
+}
 .discount{
     position: absolute;
     bottom: 80px;
@@ -96,5 +99,5 @@ span:nth-of-type(3){
      left: 0;
  }
 #model:hover .imgtop{
-     display: inline;
+     display: block;
  }
