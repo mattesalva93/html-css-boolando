@@ -5,15 +5,17 @@
 }
 #container{
     width: 80%;
-    margin: 2% auto;
+    margin: 0 auto;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #model{
-    width: 30%;
+    width: 32%;
     height: 700px;
     float: left;
     margin: 0 1% 1% 0;
     position: relative;
+    cursor: pointer;
 }
 #model:nth-child(3n){
     margin-right: 0;
@@ -32,10 +34,8 @@
     top: 15px;
     right: 0;
     background-color: white;
-    height: 35px;
-    width: 35px;
     text-align: center;
-    padding-top: 3px;
+    padding: 10px 15px;
 }
 .heart::after{
     content: "\2665";
@@ -49,26 +49,22 @@
     bottom: 80px;
     left: 0;
     background-color: #EB0037;
-    height: 17px;
-    width: 30px;
     text-align: center;
     color: white;
     font-size: 10px;
     font-weight: bold;
-    padding-top: 3px;
+    padding: 3px 5px;
 }
 .sustain{
     position: absolute;
     bottom: 80px;
     left: 35px;
     background-color: #00875A;
-    height: 17px;
-    width: 65px;
     text-align: center;
     color: white;
     font-size: 10px;
     font-weight: bold;
-    padding-top: 2px;
+    padding: 3px 5px;
 }
 .sustain:nth-of-type(2){
     left: 0;
